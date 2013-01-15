@@ -3,7 +3,7 @@
 // Date of Completion
 // Project 2
 // Video Games
-//Trying to get this back!!
+
 //Start
 
 //My Variables
@@ -11,6 +11,9 @@ var myGames = ["Halo 4", "Black Ops II", "Far Cry 3", "Borderlands 2"];
 var minutesPerGame = [24, 36, 120, 16];
 var hoursToPlay= (3);
 var myName = ("Matt Harris");
+var say = function(message){
+	console.log(message)
+};
 
 var playOneGame = function(){
 	var myGame = myGames[gameNum],
@@ -28,3 +31,4 @@ for (var gameNum = 0; gameNum < myGames.length; gameNum++) {
 };
 
 console.log("Wow I have played video games for over " + hoursToPlay + " hours. Time to do some homework.");
+
