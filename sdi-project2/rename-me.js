@@ -11,6 +11,7 @@ var myGames = ["Halo 4", "Black Ops II", "Far Cry 3", "Borderlands 2"];
 var minutesPerGame = [24, 36, 120, 16];
 var hoursToPlay= (3);
 var myName = ("Matt Harris");
+
 var playOneGame = function(){
 	var myGame = myGames[gameNum],
 	minutesThisGame = minutesPerGame[gameNum];
