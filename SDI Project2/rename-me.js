@@ -32,3 +32,4 @@ for (var gameNum = 0; gameNum < myGames.length; gameNum++) {
 
 console.log("Wow I have played video games for over " + hoursToPlay + " hours. Time to do some homework.");
 
+say("My name is " + myNam +  "and I love playing video Games")
